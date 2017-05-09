@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+   <h1>Forms</h1>
+   
+   <!--<form action="#">
+      <label for="username">Enter Name</label>
+       <input type="text" id="username">
+       <label for="pwd">Enter Password</label>
+       <input type="password" id="pwd">
+   </form>-->
+   
+   <form action="login.html" method="post">
+       <table>
+           <tr>
+               <td><label for="username">Enter Name</label></td>
+               <td><input type="text" id="username" name="u_name"></td>
+           </tr>
+           <tr>
+               <td><label for="pwd">Enter Password</label></td>
+               <td><input type="password" id="pwd" name="u_pwd"></td>
+           </tr>
+           <tr>
+               <td>Date of Birth</td>
+               <td><select>
+                 <!--option*12-->
+                  <option>Select Month</option>
+                   <option value="Jan">Jan</option>
+                   <option value="Feb">Feb</option>
+                   <option value="March">March</option>
+                   <option value="April">April</option>
+                   <option value="May">May</option>
+                   <option value="June">June</option>
+                   <option value="July">July</option>
+                   <option value="Aug">August</option>
+                   <option value="Sept">September</option>
+                   <option value="Oct">October</option>
+                   <option value="Nov">November</option>
+                   <option value="Dec">December</option>
+               </select></td>
+           </tr>
+           <tr>
+               <td>Gender</td>
+               <td>
+                   <input type="radio" name="gender" value="M">Male
+                   <input type="radio" name="gender" value="F">Female
+                </td>
+           </tr>
+           <tr>
+               <td>Select your choice</td>
+               <td>
+                   <input type="checkbox">Sachin <br>
+                   <input type="checkbox">Dhoni <br>
+                   <input type="checkbox">Kohli <br>
+                   <input type="checkbox">Gayle <br>
+                   <input type="checkbox">Sehwag
+                </td>
+           </tr>
+           <tr>
+               <td></td>
+               <td><input type="submit" value="Register"></td>
+           </tr>
+       </table>
+   </form>
+    
+</body>
+</html>
