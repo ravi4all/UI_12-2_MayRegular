@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    background-image: url("http://static.sportzwiki.com/2016/06/Never-give-up-during-difficult-times-of-life-Sachin-Tendulkar-said-school-schoolkids.jpg");
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+        }
+
+div {
+    height: 600px;
+    margin-bottom: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+div:last-child {
+    margin-bottom: 0px;
+}
+#div_1 {
+    background-image: url("http://www.wallpapersbyte.com/wp-content/uploads/2015/12/Sachin-Tendulkar-Celebrating-2011-Cricket-World-Cup-India-WallpapersByte-com-1920x1080.jpg");
+}
+#div_2 {
+    background-image: url("http://hdwallpapersbuzz.com/wp-content/uploads/2017/02/sachin-tendulkar-wallpapers-in-world-cup-2011-images-30.jpg");
+}
+#div_3 {
+    background-image: url("http://www.hdwallpapernew.in/wp-content/uploads/2015/01/Mahendra-Singh-Dhoni-Wide-HD-Images.jpg");
+}
+#div_4 {
+    background-image: url("http://media1.santabanta.com/full1/Cricket/Mahendra%20Singh%20Dhoni/mahendra-singh-dhoni-33a.jpg");
+}
+#div_5 {
+    background-image: url("http://media1.santabanta.com/full1/Cricket/Virat%20Kohli/virat-kohli-15a.jpg");
+}
+#div_6 {
+    background-image: url("http://www.newhdwallpaper.in/wp-content/uploads/2015/10/Virat-Kohli-wide-wallpaper.jpg");
+}

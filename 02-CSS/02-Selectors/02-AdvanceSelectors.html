@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*It will apply CSS only on immediate childs of #div_1*/
+        #div_1 > p {
+            font-size: 20px;
+            color: red;
+        }
+        /*It will apply CSS on the element that are outside #div_1*/
+        #div_1 + h2 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Advance Selectors</h1>
+   
+   <div id="div_1">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates nihil, ducimus necessitatibus possimus, quos consequatur officiis adipisci quam odit eum suscipit sunt mollitia, quaerat fugiat est perferendis dignissimos tenetur!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates nihil, ducimus necessitatibus possimus, quos consequatur officiis adipisci quam odit eum suscipit sunt mollitia, quaerat fugiat est perferendis dignissimos tenetur!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates nihil, ducimus necessitatibus possimus, quos consequatur officiis adipisci quam odit eum suscipit sunt mollitia, quaerat fugiat est perferendis dignissimos tenetur!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates nihil, ducimus necessitatibus possimus, quos consequatur officiis adipisci quam odit eum suscipit sunt mollitia, quaerat fugiat est perferendis dignissimos tenetur!</p>
+       <div class="child">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates nihil, ducimus necessitatibus possimus, quos consequatur officiis adipisci quam odit eum suscipit sunt mollitia, quaerat fugiat est perferendis dignissimos tenetur!</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates nihil, ducimus necessitatibus possimus, quos consequatur officiis adipisci quam odit eum suscipit sunt mollitia, quaerat fugiat est perferendis dignissimos tenetur!</p>
+       </div>
+   </div>
+   
+   <h2>Heading after Div</h2>
+    
+    
+    
+</body>
+</html>

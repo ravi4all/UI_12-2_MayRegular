@@ -1,0 +1,13 @@
+.child_1, .child_2 {
+    height: 50px;
+    background-color: red;
+}
+
+#div_2 .child_2 {
+    background-color: gray;
+}
+
+#div_1 .child_2 .grand_child_2 {
+    height: 30px;
+    background-color: deepskyblue;
+}
