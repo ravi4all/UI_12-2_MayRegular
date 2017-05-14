@@ -1,0 +1,28 @@
+#two-col {
+    background-color: darkkhaki;
+    /*height: 490px;*/
+}
+.col_1 {
+    float: left;
+    width: 60%;
+}
+
+.col_2 {
+    background-color: red;
+    float: left;
+    width: 40%;
+}
+/*.blank {
+    clear: left;
+}*/
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#row {
+    /*clear: left;*/
+    background-color: dodgerblue;
+}

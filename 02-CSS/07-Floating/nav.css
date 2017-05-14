@@ -1,0 +1,22 @@
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    background-color: dimgrey;
+    border-right: 1px solid red;
+}
+ul li:last-child {
+    border: none;
+}
+ul li a {
+    color: #fff;
+}
