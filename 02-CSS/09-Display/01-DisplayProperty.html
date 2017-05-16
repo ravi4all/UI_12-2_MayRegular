@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        img {
+            width: 100%;
+        }
+        ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        ul li {
+            float: left;
+            width: 13%;
+            background-color: #FF800F;
+            text-align: center;
+            margin: 0px 8px;
+            position: relative;
+        }
+        ul li a {
+            color: #eeeeee;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+        .dropdown {
+            position: absolute;
+            width: 100%;
+            left: 0px;
+            top: 39px;
+            display: none;
+        }
+        .dropdown li {
+            width: 100%;
+            float: none;
+            padding: 10px 0px;
+            margin: 0px;
+        }
+        .dropdown li:hover {
+            background-color: cornflowerblue;
+        }
+        ul li:hover .dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Display Property</h1>
+
+<ul>
+    <li><a href="#">MenuItem_1</a></li>
+    <li>
+        <a href="#">MenuItem_2</a>
+        <div class="dropdown">
+            <ul>
+                <li><a href="#">NestedItem_1</a></li>
+                <li><a href="#">NestedItem_2</a></li>
+                <li><a href="#">NestedItem_3</a></li>
+                <li><a href="#">NestedItem_4</a></li>
+                <li><a href="#">NestedItem_5</a></li>
+            </ul>
+        </div>
+    </li>
+    <li><a href="#">MenuItem_3</a></li>
+    <li><a href="#">MenuItem_4</a></li>
+    <li><a href="#">MenuItem_5</a></li>
+    <li><a href="#">MenuItem_6</a></li>
+</ul>
+
+<div id="banner">
+    <img src="../../WebImages/WebImages/1213130595_wallpaper_iron_man_02_1920x1200.jpg" alt=""/>
+</div>
+
+</body>
+</html>
