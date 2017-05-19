@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        p:before {
+            content: '-----';
+        }
+        p:after {
+            content: "Read More";
+        }
+        ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        ul li {
+            display: inline-block;
+            background-color: #FF800F;
+            width: 18%;
+            padding: 10px;
+            position: relative;
+            text-align: center;
+        }
+        ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        li img {
+            position: absolute;
+            right: 10px;
+            z-index: 1;
+        }
+        ul li:after {
+            content: "";
+            background-image: url("arrow-down-1.png");
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            right: 10px;
+        }
+        .image_1 {
+            position: absolute;
+            left: 50%;
+            top: 20%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Pseudo Elements</h1>
+
+<ul>
+    <li><a href="#">Item_1</a></li>
+    <li>
+        <a href="#">Item_2</a>
+    </li>
+    <li><a href="#">Item_3</a></li>
+    <li>
+        <a href="#">Item_4</a>
+    </li>
+    <li><a href="#">Item_5</a></li>
+</ul>
+
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+
+<img src="../../WebImages/WebImages/925L.jpg" width="300" height="400" alt="img"/>
+<br/>
+<img src="../../WebImages/WebImages/925L.jpg" class="image_1" width="300" height="400" alt="img"/>
+
+
+</body>
+</html>
