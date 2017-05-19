@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box; /* Mozila */
+            -webkit-box-sizing: border-box;  /* Chrome,Safari */
+            -o-box-sizing: border-box;  /* Opera */
+            -ms-box-sizing: border-box;  /* Microsoft-IE */
+        }
+        ::selection {
+            background-color: #FF800F;
+        }
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        #header {
+            background-color: blueviolet;
+        }
+        #content,#section_1 {
+            height: 300px;
+            background-color: #FF800F;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+<div id="header">
+    <div class="container">
+    <h1>Box Sizing</h1>
+        </div>
+</div>
+
+<div id="content">
+    <div class="container">
+        <h2>This is my content</h2>
+    </div>
+</div>
+
+<div id="section_1">
+    <div class="container">
+        <h2>This is my another section</h2>
+    </div>
+</div>
+
+
+    </div>
+</body>
+</html>
