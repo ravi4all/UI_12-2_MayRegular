@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100%;
+            width: 100%;
+        }
+        div img {
+            width: 20%;
+            position: relative;
+            z-index: 1000;
+            animation: bullet 5s infinite alternate;
+        }
+        @keyframes bullet{
+            0% { left: 0%; top: 30%; }
+            50% { left: 54%;}
+            100% { left: 0%;}
+        }
+        .img1 {
+            position: absolute;
+            right: 0%;
+            width: 30%;
+            top: 10%;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Transform With Transitions</h1>
+   
+   <div>
+   <img src="../../Images/rws_0_evo_bp-g_0_stadium1.png" alt="">
+    </div>
+    
+    <img src="../../Images/sivaji-the-boss-3d%5B1%5D.jpg" class="img1" alt="">
+    
+</body>
+</html>
