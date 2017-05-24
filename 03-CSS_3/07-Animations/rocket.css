@@ -1,0 +1,33 @@
+.container{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.earth {
+    background-image: url("earth-spinning-rotating-animation-14.gif");
+    background-repeat: no-repeat;
+    height: 320px;
+}
+
+.rocket {
+    background-image: url("rocket-light.gif");
+    height: 100px;
+    width: 480px;
+    position: absolute;
+    top: 35%;
+    left: -100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: rocket 4s infinite linear;
+}
+
+@keyframes rocket {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+        z-index: -1;
+    }
+}

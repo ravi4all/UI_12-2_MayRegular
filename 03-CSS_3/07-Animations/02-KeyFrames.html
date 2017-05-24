@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        img {
+            position: absolute;
+            bottom: 20px;
+            left: 45%;
+            width: 15%;
+            animation: football 3s infinite linear;
+        }
+        @keyframes football {
+            0% {
+                left: 45%;
+                bottom: 20px;
+            }
+            25% {
+                left: 0%;
+                bottom: 45%;
+                transform: rotateZ(900deg);
+            }
+            50% {
+                left: 45%;
+                bottom: 80%;
+            }
+            75% {
+                left: 80%;
+                bottom: 45%;
+            }
+            100% {
+                left: 45%;
+                bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Exploring Keyframes</h1>
+
+<img src="../../Football.png" alt="image"/>
+
+</body>
+</html>
