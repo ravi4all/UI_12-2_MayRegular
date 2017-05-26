@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<h1>New Form Elements</h1>
+
+<form action="#">
+    Enter Name
+    <input type="text" placeholder="Enter Name" required autofocus="on" title="This field is necessary"/>
+    Enter Password
+    <input type="password" placeholder="Enter Password" required/>
+    <br/><br/>
+    <input type="date"/>
+    <input type="datetime-local"/>
+    <input type="time"/>
+    <input type="week"/>
+    <input type="month"/>
+    <br/><br/>
+    <input type="url" placeholder="Enter URL"/>
+    <input type="color"/>
+    <input type="email" placeholder="Enter Email"/>
+    <input type="number" min="10" max="20"/>
+    <input type="text" maxlength="10"/>
+    <input type="text" size="50"/>
+    <br/><br/>
+    <input type="range" min="10" max="100" value="20"
+           onchange="outputId.value=value" step="5"/>
+    <output id="outputId">20</output>
+    <input type="file">
+    <input type="search" placeholder="Search here"/>
+    <progress value="40" max="100"></progress>
+    <input type="text" pattern="[0-9]{10}|[a-z]{6}"
+           placeholder="Enter credit card details"
+           title="Pattern should be of 10 digits and 6 alphabets"/>
+    <br/><br/>
+    <textarea name="" id="" cols="30" rows="10" spellcheck="true" style="resize: none;"></textarea>
+    <br/><br/>
+    <input type="submit" value="Login"/>
+</form>
+
+</body>
+</html>
