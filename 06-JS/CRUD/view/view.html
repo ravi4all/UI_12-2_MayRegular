@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../model/Task.js"></script>
+    <script src="../model/task_obj.js"></script>
+    <script src="../controller/controller.js"></script>
+    <style>
+        .marked {
+            color: red;
+            text-decoration: line-through;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<h1>CRUD Operations</h1>
+
+<table>
+    <tr>
+        <td>Enter Task</td>
+        <td><input type="text" placeholder="Enter task" id="task_name"/></td>
+    </tr>
+    <tr>
+        <td>Enter Description</td>
+        <td><textarea id="task_desc" cols="30" rows="10"></textarea></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button id="add">Add Task</button>
+            <button id="del">Delete Task</button>
+            <button id="save">Save Task</button>
+            <button id="load">Load Task</button>
+            <button id="sort">Sort Task</button>
+            <button id="search">Search Task</button>
+        </td>
+    </tr>
+</table>
+
+<ul id="task_list">
+
+</ul>
+
+</body>
+</html>

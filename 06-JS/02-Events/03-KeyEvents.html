@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function check_validation(){
+            alert("Event Called")
+        }
+        function typing_anim(){
+            a = document.getElementById("box");
+            document.getElementById("output").innerHTML = a.value;
+        }
+    </script>
+</head>
+<body>
+
+<h1>Key Events</h1>
+
+<h2>Key Down</h2>
+<input type="text" placeholder="Enter Here" onkeydown="check_validation()"/>
+<h2>Key Press</h2>
+<input type="text" placeholder="Enter Here" onkeypress="check_validation()"/>
+<h2>Key Up</h2>
+<input type="text" id="box" placeholder="Enter Here" onkeyup="typing_anim()"/>
+
+<span id="output"></span>
+
+</body>
+</html>
