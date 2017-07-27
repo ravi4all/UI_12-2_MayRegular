@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../jquery-3.1.1.js"></script>
+</head>
+<body>
+   
+   <h1>Get Values</h1>
+   
+   <input type="text" placeholder="Enter name" id="txtbox">
+   
+   <button id="btn">CLick Me</button>
+   <br>
+   <div id="result"></div>
+   
+   <div id="div1">
+       <h2>Heading</h2>
+   </div>
+   
+   <script>
+       $(document).ready(function(){
+    var a = $("#txtbox");
+    $("#btn").click(function(){
+        $(a).val("Ravi");
+        /*$("#div1").text("Content from Jquery");*/
+        $("#div1").append("<h3>Content from Jquery</h3>");
+           });
+           
+       })
+    </script>
+    
+</body>
+</html>
